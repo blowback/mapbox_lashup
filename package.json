@@ -1,0 +1,24 @@
+{
+  "name": "mapbox-lashup",
+  "version": "1.0.0",
+  "description": "Proof of concept for using private GeoJSON data with mapbox.com API",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --max-old-space-size=4096 app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ant",
+  "license": "ISC",
+  "dependencies": {
+    "compression": "^1.6.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "express-dustjs": "^1.1.1",
+    "eyes": "^0.1.8",
+    "geojson-vt": "^2.4.0",
+    "vt-pbf": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

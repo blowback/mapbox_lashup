@@ -1,0 +1,18 @@
+{~lb}
+    "tilejson": "2.2.0",
+    "bounds": [ {#bounds}{.}{@sep},{/sep}{/bounds} ],
+    "center": [ {#centre}{.}{@sep},{/sep}{/centre} ],
+    "format": "pbf",
+    "scheme": "xyz",
+    "tiles": [
+        "http://{host}:{port}/tiles/{title}/{~lb}z{~rb}/{~lb}x{~rb}/{~lb}y{~rb}.vector.pbf"
+    ],
+    "minzoom": {minZoom},
+    "maxzoom": {maxZoom},
+    "vector_layers": [
+        {~lb}
+            "id": "{title}"
+        {~rb}
+    ]
+{~rb}
+
